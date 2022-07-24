@@ -1,0 +1,29 @@
+.c-button {
+    width: 100%;
+    padding: toRem(10);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &__default {
+        color: var(--text-color-primary);
+        background-color: var(--bg-color-third);
+    }
+
+    &__default--bool {
+        width: toRem(57);
+        height: toRem(57);
+        border-radius: toRem(37);
+
+        &:hover {
+            background-color: var(--bg-color-submit);
+        }
+    }
+
+    &__submit {
+        font-weight: 700;
+        color: var(--text-color-primary);
+        background-color: var(--bg-color-submit);
+        border-radius: toRem(27);
+    }
+}

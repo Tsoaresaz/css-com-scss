@@ -1,0 +1,6 @@
+.c-score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: toRem(24);
+    @include flex-gap;
+}

@@ -1,0 +1,21 @@
+body {
+    --bg-color-primary: #e0e0e0;
+    --bg-color-secondary: #ffffff;
+    --bg-color-third: #e0e0e0;
+
+    --bg-color-submit: #03a9f4;
+
+    --text-color-primary: #141519;
+    --text-color-secondary: #1e252f;
+}
+
+body.dark {
+    --bg-color-primary: #141519;
+    --bg-color-secondary: #1e252f;
+    --bg-color-third: #262f38;
+
+    --bg-color-submit: #fa7618;
+
+    --text-color-primary: #ffffff;
+    --text-color-secondary: #656e77;
+}

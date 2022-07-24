@@ -1,0 +1,12 @@
+@mixin flex-gap($value: toRem(16)) {
+    column-gap: $value;
+    -moz-column-gap: $value;
+    -webkit-column-gap: $value;
+}
+
+
+@mixin mobile {
+    @media (max-width: 600px) {
+        @content;
+    }
+}

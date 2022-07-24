@@ -1,0 +1,31 @@
+.c-card {
+    width: 470px;
+    height: 380px;
+    padding: toRem(30);
+    background-color: var(--bg-color-secondary);
+    border-radius: toRem(20);
+
+    &__link {
+        position: relative;
+    }
+
+    &__iconMoon {
+        font-size: toRem(20);
+        color: var(--bg-color-submit);
+        cursor: pointer;
+    }
+    
+    &__content {
+        margin-top: toRem(32);
+    }
+
+    &__title {
+        color: var(--text-color-primary);
+        margin-bottom: toRem(24);
+    }
+
+    &__text {
+        color: var(--text-color-secondary);
+        margin-bottom: toRem(24);
+    }
+}

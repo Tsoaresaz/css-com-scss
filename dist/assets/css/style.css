@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+}
+body {
+  --bg-color-primary: #e0e0e0;
+  --bg-color-secondary: #ffffff;
+  --bg-color-third: #e0e0e0;
+  --bg-color-submit: #03a9f4;
+  --text-color-primary: #141519;
+  --text-color-secondary: #1e252f;
+}
+
+body.dark {
+  --bg-color-primary: #141519;
+  --bg-color-secondary: #1e252f;
+  --bg-color-third: #262f38;
+  --bg-color-submit: #fa7618;
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #656e77;
+}
+
+.c-button {
+  width: 100%;
+  padding: 0.625rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.c-button__default {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color-third);
+}
+.c-button__default--bool {
+  width: 3.5625rem;
+  height: 3.5625rem;
+  border-radius: 2.3125rem;
+}
+.c-button__default--bool:hover {
+  background-color: var(--bg-color-submit);
+}
+.c-button__submit {
+  font-weight: 700;
+  color: var(--text-color-primary);
+  background-color: var(--bg-color-submit);
+  border-radius: 1.6875rem;
+}
+
+.c-tooltip {
+  position: absolute;
+  top: 0;
+}
+
+.c-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-primary);
+}
+
+.c-card {
+  width: 470px;
+  height: 380px;
+  padding: 1.875rem;
+  background-color: var(--bg-color-secondary);
+  border-radius: 1.25rem;
+}
+.c-card__link {
+  position: relative;
+}
+.c-card__iconMoon {
+  font-size: 1.25rem;
+  color: var(--bg-color-submit);
+  cursor: pointer;
+}
+.c-card__content {
+  margin-top: 2rem;
+}
+.c-card__title {
+  color: var(--text-color-primary);
+  margin-bottom: 1.5rem;
+}
+.c-card__text {
+  color: var(--text-color-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.c-score {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+  -webkit-column-gap: 1rem;
+}
+
+.c-card {
+  width: 470px;
+  height: 380px;
+  padding: 1.875rem;
+  background-color: var(--bg-color-secondary);
+  border-radius: 1.25rem;
+}
+.c-card__link {
+  position: relative;
+}
+.c-card__iconMoon {
+  font-size: 1.25rem;
+  color: var(--bg-color-submit);
+  cursor: pointer;
+}
+.c-card__content {
+  margin-top: 2rem;
+}
+.c-card__title {
+  color: var(--text-color-primary);
+  margin-bottom: 1.5rem;
+}
+.c-card__text {
+  color: var(--text-color-secondary);
+  margin-bottom: 1.5rem;
+}

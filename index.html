@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com SCSS</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="dist/assets/css/style.css">
+</head>
+<body class="dark">
+    <main class="c-main">
+        <section class="c-card">
+            <header class="c-card__header">
+                <a href="#" class="c-card__link js-card__link" title="noite">
+                    <i class="c-card__iconMoon fa-solid fa-cloud-moon"></i>
+                </a>
+            </header>
+            <div class="c-card__content">
+                <h1 class="c-card__title">Como foi o nosso atendimento?</h1>
+                <p class="c-card__text">
+                    Por favor, deixe-nos saber como foi o nosso atendimento e se sua solicitação de suporte foi atendida. Todos os comentários são vistos para nos ajudar a melhorar o nosso suporte.
+                </p>
+                <section class="c-score">
+                    <button class="c-button c-button__default c-button__default--bool">1</button>
+                    <button class="c-button c-button__default c-button__default--bool">2</button>
+                    <button class="c-button c-button__default c-button__default--bool">3</button>
+                    <button class="c-button c-button__default c-button__default--bool">4</button>
+                    <button class="c-button c-button__default c-button__default--bool">5</button>
+                </section>
+            </div>
+            <footer class="c-card__footer">
+                <button class="c-button c-button__submit">Enviar</button>
+            </footer>
+        </section>
+    </main>
+
+    <script src="/dist/assets/js/script.js"></script>
+</body>
+</html>
