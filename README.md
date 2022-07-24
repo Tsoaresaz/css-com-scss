@@ -4,6 +4,8 @@ Este projeto tem como objetivo mostrar o uso do pré-processador `SASS`.
 
 É um projeto simples com o uso de **HTML**, **CSS** e **JavaScript**.
 
+Foi utlizado a metodologia `BEM - (Block, Element, Modifier)`, que é um CSS Pattern.
+
 ## O que é SASS
 
 *O SASS é uma linguagem de extensão do CSS, a sigla significa “Syntactically Awesome Style Sheets” traduzindo ao pé da letra, folhas de estilo com uma sintaxe incrível. A sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações e outras opções variadas que iremos comentar.*
