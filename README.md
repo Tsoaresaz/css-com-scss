@@ -6,6 +6,10 @@ Este projeto tem como objetivo mostrar o uso do pré-processador `SASS`.
 
 Foi utlizado a metodologia `BEM - (Block, Element, Modifier)`, que é um CSS Pattern.
 
+## Preview
+
+O projeto pode ser visto clicando [aqui](https://css-com-scss.vercel.app/).
+
 ## O que é SASS
 
 *O SASS é uma linguagem de extensão do CSS, a sigla significa “Syntactically Awesome Style Sheets” traduzindo ao pé da letra, folhas de estilo com uma sintaxe incrível. A sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações e outras opções variadas que iremos comentar.*
